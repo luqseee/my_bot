@@ -1,0 +1,7 @@
+[options]
+prefix = /home/luqseee/robot_ws/src/install/libcamera
+libdir = lib
+buildtype = release
+
+[properties]
+

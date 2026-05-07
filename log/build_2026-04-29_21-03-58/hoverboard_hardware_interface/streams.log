@@ -1,0 +1,43 @@
+[0.027s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luqseee/robot_ws/install/hoverboard_hardware_interface
+[0.176s] -- The C compiler identification is GNU 13.3.0
+[0.383s] -- The CXX compiler identification is GNU 13.3.0
+[0.428s] -- Detecting C compiler ABI info
+[0.616s] -- Detecting C compiler ABI info - done
+[0.634s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.634s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.657s] -- Detecting CXX compiler ABI info
+[0.856s] -- Detecting CXX compiler ABI info - done
+[0.873s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.873s] -- Detecting CXX compile features
+[0.874s] -- Detecting CXX compile features - done
+[0.880s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.163s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.319s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.398s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system 
+[1.673s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.699s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.751s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.040s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.106s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.111s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.146s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.247s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.252s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.274s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.278s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.291s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.308s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.691s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.716s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/hoverboard_hardware_interface` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.725s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.725s] -- Configured cppcheck include dirs: /home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/include
+[2.725s] -- Configured cppcheck exclude dirs and/or files: 
+[2.726s] -- Added test 'lint_cmake' to check CMake code style
+[2.728s] -- Added test 'uncrustify' to check C / C++ code style
+[2.728s] -- Configured uncrustify additional arguments: 
+[2.729s] -- Added test 'xmllint' to check XML markup files
+[2.733s] -- Configuring done (2.7s)
+[2.789s] -- Generating done (0.0s)
+[2.800s] -- Build files have been written to: /home/luqseee/robot_ws/build/hoverboard_hardware_interface

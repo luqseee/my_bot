@@ -1,0 +1,494 @@
+[0.307s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.307s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb3be8c80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb3da0800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb3da0800>>, mixin_verb=('build',))
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.364s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/luqseee/robot_ws'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'meson', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'meson', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'meson'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extensions ['cmake', 'meson', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'meson'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_bringup) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hoverboard_ros2_control/hoverboard_demo_bringup' with type 'ros.ament_cmake' and name 'hoverboard_demo_bringup'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_demo_description) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hoverboard_ros2_control/hoverboard_demo_description' with type 'ros.ament_cmake' and name 'hoverboard_demo_description'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_hardware_interface) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hoverboard_ros2_control/hoverboard_hardware_interface' with type 'ros.ament_cmake' and name 'hoverboard_hardware_interface'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/hoverboard_ros2_control/hoverboard_ros2_control) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hoverboard_ros2_control/hoverboard_ros2_control' with type 'ros.ament_cmake' and name 'hoverboard_ros2_control'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.446s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.467s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/luqseee/robot_ws/src/my_bot/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.467s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/luqseee/robot_ws/install/camera_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.467s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/luqseee/robot_ws/src/my_bot/install/my_bot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.467s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/luqseee/robot_ws/install/camera_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.469s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/luqseee/robot_ws/install
+[0.471s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 361 installed packages in /opt/ros/jazzy
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'cmake_args' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'cmake_target' from command line to 'None'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.554s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'meson_args' from command line to '[]'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.555s] DEBUG:colcon.colcon_core.verb:Building package 'hoverboard_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luqseee/robot_ws/build/hoverboard_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luqseee/robot_ws/install/hoverboard_demo_description', 'merge_install': False, 'meson_args': [], 'path': '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_demo_description', 'symlink_install': True, 'test_result_base': None}
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'meson_args' from command line to '[]'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] DEBUG:colcon.colcon_core.verb:Building package 'hoverboard_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luqseee/robot_ws/build/hoverboard_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luqseee/robot_ws/install/hoverboard_hardware_interface', 'merge_install': False, 'meson_args': [], 'path': '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface', 'symlink_install': True, 'test_result_base': None}
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'meson_args' from command line to '[]'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.581s] DEBUG:colcon.colcon_core.verb:Building package 'hoverboard_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luqseee/robot_ws/build/hoverboard_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luqseee/robot_ws/install/hoverboard_ros2_control', 'merge_install': False, 'meson_args': [], 'path': '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'meson_args' from command line to '[]'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.595s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luqseee/robot_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luqseee/robot_ws/install/my_bot', 'merge_install': False, 'meson_args': [], 'path': '/home/luqseee/robot_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'meson_args' from command line to '[]'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luqseee/robot_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luqseee/robot_ws/install/sllidar_ros2', 'merge_install': False, 'meson_args': [], 'path': '/home/luqseee/robot_ws/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'meson_args' from command line to '[]'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'hoverboard_demo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.620s] DEBUG:colcon.colcon_core.verb:Building package 'hoverboard_demo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/luqseee/robot_ws/build/hoverboard_demo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/luqseee/robot_ws/install/hoverboard_demo_bringup', 'merge_install': False, 'meson_args': [], 'path': '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_demo_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.620s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.622s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.622s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_demo_description' with build type 'ament_cmake'
+[0.622s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_demo_description'
+[0.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.630s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface' with build type 'ament_cmake'
+[0.631s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface'
+[0.631s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.631s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.636s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_ros2_control' with build type 'ament_cmake'
+[0.636s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_ros2_control'
+[0.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.642s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luqseee/robot_ws/src/my_bot' with build type 'ament_cmake'
+[0.642s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luqseee/robot_ws/src/my_bot'
+[0.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/hoverboard_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_demo_description -- -j4 -l4
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_hardware_interface -- -j4 -l4
+[0.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/hoverboard_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_ros2_control -- -j4 -l4
+[0.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/my_bot -- -j4 -l4
+[0.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/hoverboard_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_demo_description -- -j4 -l4
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/hoverboard_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_demo_description
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/hoverboard_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_ros2_control -- -j4 -l4
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/hoverboard_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_ros2_control
+[0.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/my_bot -- -j4 -l4
+[0.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/my_bot
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_ros2_control)
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/hoverboard_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_ros2_control
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control' for CMake module files
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control' for CMake config files
+[0.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_ros2_control', 'cmake_prefix_path')
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/hook/cmake_prefix_path.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/hook/cmake_prefix_path.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/hook/cmake_prefix_path.sh'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control/bin'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control/lib/pkgconfig/hoverboard_ros2_control.pc'
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control/lib/python3.12/site-packages'
+[0.827s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control/bin'
+[0.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.ps1'
+[0.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.dsv'
+[0.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.sh'
+[0.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.bash'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.zsh'
+[0.834s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/colcon-core/packages/hoverboard_ros2_control)
+[0.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_ros2_control)
+[0.837s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control' for CMake module files
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control' for CMake config files
+[0.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_ros2_control', 'cmake_prefix_path')
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/hook/cmake_prefix_path.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/hook/cmake_prefix_path.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/hook/cmake_prefix_path.sh'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control/bin'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control/lib/pkgconfig/hoverboard_ros2_control.pc'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control/lib/python3.12/site-packages'
+[0.843s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_ros2_control/bin'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.dsv'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.sh'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.bash'
+[0.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/hoverboard_ros2_control/package.zsh'
+[0.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/hoverboard_ros2_control/share/colcon-core/packages/hoverboard_ros2_control)
+[0.850s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luqseee/robot_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luqseee/robot_ws/src/sllidar_ros2'
+[0.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_demo_description)
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description' for CMake module files
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description' for CMake config files
+[0.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_demo_description', 'cmake_prefix_path')
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/hook/cmake_prefix_path.ps1'
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/hoverboard_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_demo_description
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/hook/cmake_prefix_path.dsv'
+[0.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/hook/cmake_prefix_path.sh'
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description/bin'
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description/lib/pkgconfig/hoverboard_demo_description.pc'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description/lib/python3.12/site-packages'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description/bin'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.sh'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.bash'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.zsh'
+[0.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/hoverboard_demo_description/share/colcon-core/packages/hoverboard_demo_description)
+[0.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_demo_description)
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description' for CMake module files
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description' for CMake config files
+[0.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_demo_description', 'cmake_prefix_path')
+[0.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/hook/cmake_prefix_path.ps1'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/hook/cmake_prefix_path.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/hook/cmake_prefix_path.sh'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description/bin'
+[0.877s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description/lib/pkgconfig/hoverboard_demo_description.pc'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description/lib/python3.12/site-packages'
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_description/bin'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.sh'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.bash'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.zsh'
+[0.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/hoverboard_demo_description/share/colcon-core/packages/hoverboard_demo_description)
+[0.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_demo_bringup' with build type 'ament_cmake'
+[0.887s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_demo_bringup'
+[0.888s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.888s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot' for CMake module files
+[0.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/my_bot
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot' for CMake config files
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot/bin'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot/lib/python3.12/site-packages'
+[0.899s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot/bin'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.ps1'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.dsv'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.sh'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.bash'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.zsh'
+[0.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[0.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot' for CMake module files
+[0.904s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot' for CMake config files
+[0.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[0.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot/bin'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot/lib/python3.12/site-packages'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/my_bot/bin'
+[0.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.ps1'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.sh'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.bash'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/my_bot/share/my_bot/package.zsh'
+[0.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/sllidar_ros2 -- -j4 -l4
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_hardware_interface -- -j4 -l4
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_hardware_interface
+[0.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/hoverboard_demo_bringup': CMAKE_PREFIX_PATH=/home/luqseee/robot_ws/install/hoverboard_demo_description:/home/luqseee/robot_ws/src/my_bot/install/my_bot:/home/luqseee/robot_ws/install/hoverboard_ros2_control:/home/luqseee/robot_ws/install/hoverboard_hardware_interface:/home/luqseee/robot_ws/install/hoverboard_demo_bringup:/home/luqseee/robot_ws/install/sllidar_ros2:/home/luqseee/robot_ws/install/my_bot:/home/luqseee/robot_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_demo_bringup -- -j4 -l4
+[0.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_hardware_interface)
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface' for CMake module files
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_hardware_interface
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface' for CMake config files
+[0.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_hardware_interface', 'cmake_prefix_path')
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/cmake_prefix_path.sh'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib'
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_hardware_interface', 'ld_library_path_lib')
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/ld_library_path_lib.sh'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/bin'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/pkgconfig/hoverboard_hardware_interface.pc'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/python3.12/site-packages'
+[0.985s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/bin'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.ps1'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.sh'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.bash'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.zsh'
+[0.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/colcon-core/packages/hoverboard_hardware_interface)
+[0.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_hardware_interface)
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface' for CMake module files
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface' for CMake config files
+[0.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_hardware_interface', 'cmake_prefix_path')
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/cmake_prefix_path.sh'
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib'
+[1.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_hardware_interface', 'ld_library_path_lib')
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/ld_library_path_lib.ps1'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/ld_library_path_lib.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hook/ld_library_path_lib.sh'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/bin'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/pkgconfig/hoverboard_hardware_interface.pc'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/python3.12/site-packages'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/bin'
+[1.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.sh'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.bash'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.zsh'
+[1.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/colcon-core/packages/hoverboard_hardware_interface)
+[1.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/hoverboard_demo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/luqseee/robot_ws/install/hoverboard_demo_description:/home/luqseee/robot_ws/src/my_bot/install/my_bot:/home/luqseee/robot_ws/install/hoverboard_ros2_control:/home/luqseee/robot_ws/install/hoverboard_hardware_interface:/home/luqseee/robot_ws/install/hoverboard_demo_bringup:/home/luqseee/robot_ws/install/sllidar_ros2:/home/luqseee/robot_ws/install/my_bot:/home/luqseee/robot_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_demo_bringup -- -j4 -l4
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/hoverboard_demo_bringup': CMAKE_PREFIX_PATH=/home/luqseee/robot_ws/install/hoverboard_demo_description:/home/luqseee/robot_ws/src/my_bot/install/my_bot:/home/luqseee/robot_ws/install/hoverboard_ros2_control:/home/luqseee/robot_ws/install/hoverboard_hardware_interface:/home/luqseee/robot_ws/install/hoverboard_demo_bringup:/home/luqseee/robot_ws/install/sllidar_ros2:/home/luqseee/robot_ws/install/my_bot:/home/luqseee/robot_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_demo_bringup
+[1.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_demo_bringup)
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup' for CMake module files
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/hoverboard_demo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/luqseee/robot_ws/install/hoverboard_demo_description:/home/luqseee/robot_ws/src/my_bot/install/my_bot:/home/luqseee/robot_ws/install/hoverboard_ros2_control:/home/luqseee/robot_ws/install/hoverboard_hardware_interface:/home/luqseee/robot_ws/install/hoverboard_demo_bringup:/home/luqseee/robot_ws/install/sllidar_ros2:/home/luqseee/robot_ws/install/my_bot:/home/luqseee/robot_ws/install/camera_ros:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_demo_bringup
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup' for CMake config files
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_demo_bringup', 'cmake_prefix_path')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/hook/cmake_prefix_path.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/hook/cmake_prefix_path.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/hook/cmake_prefix_path.sh'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/bin'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/lib/pkgconfig/hoverboard_demo_bringup.pc'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/lib/python3.12/site-packages'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/bin'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.sh'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.bash'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.zsh'
+[1.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/colcon-core/packages/hoverboard_demo_bringup)
+[1.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hoverboard_demo_bringup)
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup' for CMake module files
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup' for CMake config files
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('hoverboard_demo_bringup', 'cmake_prefix_path')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/hook/cmake_prefix_path.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/hook/cmake_prefix_path.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/hook/cmake_prefix_path.sh'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/bin'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/lib/pkgconfig/hoverboard_demo_bringup.pc'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/lib/python3.12/site-packages'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/bin'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.ps1'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.sh'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.bash'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/hoverboard_demo_bringup/package.zsh'
+[1.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/hoverboard_demo_bringup/share/colcon-core/packages/hoverboard_demo_bringup)
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/sllidar_ros2 -- -j4 -l4
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/luqseee/robot_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/sllidar_ros2
+[1.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2' for CMake module files
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/luqseee/robot_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/sllidar_ros2
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2' for CMake config files
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/lib'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/bin'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/bin'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2' for CMake module files
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2' for CMake config files
+[1.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/lib'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/bin'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/luqseee/robot_ws/install/sllidar_ros2/bin'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/luqseee/robot_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/luqseee/robot_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.156s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.157s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luqseee/robot_ws/install/local_setup.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luqseee/robot_ws/install/_local_setup_util_ps1.py'
+[1.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luqseee/robot_ws/install/setup.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luqseee/robot_ws/install/local_setup.sh'
+[1.162s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/luqseee/robot_ws/install/_local_setup_util_sh.py'
+[1.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luqseee/robot_ws/install/setup.sh'
+[1.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luqseee/robot_ws/install/local_setup.bash'
+[1.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luqseee/robot_ws/install/setup.bash'
+[1.170s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/luqseee/robot_ws/install/local_setup.zsh'
+[1.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/luqseee/robot_ws/install/setup.zsh'

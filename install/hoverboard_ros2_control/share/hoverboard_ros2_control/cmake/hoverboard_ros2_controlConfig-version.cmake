@@ -1,0 +1,1 @@
+/home/luqseee/robot_ws/build/hoverboard_ros2_control/ament_cmake_core/hoverboard_ros2_controlConfig-version.cmake

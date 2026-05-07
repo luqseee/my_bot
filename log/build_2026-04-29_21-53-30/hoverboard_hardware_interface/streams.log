@@ -1,0 +1,36 @@
+[0.028s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_hardware_interface -- -j4 -l4
+[0.186s] [ 50%] Built target serial_port_service
+[0.256s] [100%] Built target hoverboard_hardware_interface
+[0.299s] Invoked command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_hardware_interface -- -j4 -l4
+[0.301s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_hardware_interface
+[0.318s] -- Install configuration: ""
+[0.318s] -- Execute custom install script
+[0.319s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface//hoverboard_hardware_interface.xml
+[0.320s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/hoverboard_hardware_interface.hpp
+[0.320s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/motor_wheel.hpp
+[0.320s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/serial_port_protocol.hpp
+[0.320s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/serial_port_service.hpp
+[0.320s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/library_path.sh
+[0.321s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/library_path.dsv
+[0.321s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/libserial_port_service.so
+[0.321s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/libhoverboard_hardware_interface.so
+[0.322s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/package_run_dependencies/hoverboard_hardware_interface
+[0.322s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/parent_prefix_path/hoverboard_hardware_interface
+[0.322s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/ament_prefix_path.sh
+[0.322s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/ament_prefix_path.dsv
+[0.323s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/path.sh
+[0.323s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/path.dsv
+[0.323s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.bash
+[0.324s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.sh
+[0.324s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.zsh
+[0.324s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.dsv
+[0.324s] -- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.dsv
+[0.342s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/packages/hoverboard_hardware_interface
+[0.345s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_hardware_interface
+[0.345s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.345s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.345s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.345s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/hoverboard_hardware_interfaceConfig.cmake
+[0.345s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/hoverboard_hardware_interfaceConfig-version.cmake
+[0.345s] -- Up-to-date symlink: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.xml
+[0.347s] Invoked command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_hardware_interface

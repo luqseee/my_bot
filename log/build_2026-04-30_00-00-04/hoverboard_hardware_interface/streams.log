@@ -1,0 +1,125 @@
+[0.025s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/luqseee/robot_ws/install/hoverboard_hardware_interface
+[0.198s] -- The C compiler identification is GNU 13.3.0
+[0.372s] -- The CXX compiler identification is GNU 13.3.0
+[0.404s] -- Detecting C compiler ABI info
+[0.651s] -- Detecting C compiler ABI info - done
+[0.668s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.669s] -- Detecting C compile features
+[0.672s] -- Detecting C compile features - done
+[0.688s] -- Detecting CXX compiler ABI info
+[0.961s] -- Detecting CXX compiler ABI info - done
+[0.978s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.978s] -- Detecting CXX compile features
+[0.979s] -- Detecting CXX compile features - done
+[0.984s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.387s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.680s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system 
+[2.041s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.067s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.099s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.504s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.586s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.592s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.648s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.759s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.764s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.789s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.795s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.811s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.833s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.316s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.352s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/hoverboard_hardware_interface` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[3.358s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.358s] -- Configured cppcheck include dirs: /home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/include
+[3.358s] -- Configured cppcheck exclude dirs and/or files: 
+[3.359s] -- Added test 'lint_cmake' to check CMake code style
+[3.361s] -- Added test 'uncrustify' to check C / C++ code style
+[3.361s] -- Configured uncrustify additional arguments: 
+[3.362s] -- Added test 'xmllint' to check XML markup files
+[3.367s] -- Configuring done (3.3s)
+[3.426s] -- Generating done (0.0s)
+[3.438s] -- Build files have been written to: /home/luqseee/robot_ws/build/hoverboard_hardware_interface
+[3.467s] Invoked command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/luqseee/robot_ws/install/hoverboard_hardware_interface
+[3.469s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_hardware_interface -- -j4 -l4
+[3.570s] [ 25%] [32mBuilding CXX object CMakeFiles/serial_port_service.dir/src/serial_port_service.cpp.o[0m
+[15.640s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[15.640s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[15.641s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[15.641s]                  from [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/include/hoverboard_hardware_interface/serial_port_service.hpp:22[m[K,
+[15.641s]                  from [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/serial_port_service.cpp:15[m[K:
+[15.641s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/serial_port_service.cpp:[m[K In member function ‘[01m[Kbool hoverboard_hardware_interface::SerialPortService::[01;32m[Kconnect[m[K(const std::string&, int, int)[m[K’:
+[15.641s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/serial_port_service.cpp:32:63:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst std::string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[15.641s]    32 |       RCLCPP_ERROR(rclcpp::get_logger("SerialPortService"), [01;35m[K"Connection to the %s failed..., error: %s"[m[K,
+[15.641s]       |                                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.642s] 
+[15.642s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/serial_port_service.cpp:32:83:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[15.642s]    32 | clcpp::get_logger("SerialPortService"), "Connection to the [01;36m[K%s[m[K failed..., error: %s",
+[15.642s]       |                                                            [01;36m[K~^[m[K
+[15.642s]       |                                                             [01;36m[K|[m[K
+[15.642s]       |                                                             [01;36m[Kchar*[m[K
+[15.642s] 
+[15.642s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/serial_port_service.cpp:19:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.642s]    19 | ::connect(const std::string &serial_device, int baud_rate, [01;35m[Kint timeout[m[K)
+[15.642s]       |                                                            [01;35m[K~~~~^~~~~~~[m[K
+[15.642s] 
+[15.645s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/serial_port_service.cpp:[m[K In member function ‘[01m[Kvoid hoverboard_hardware_interface::SerialPortService::[01;32m[KonReceive[m[K(const boost::system::error_code&, size_t)[m[K’:
+[15.645s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/serial_port_service.cpp:113:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.646s]   113 | rialPortService::onReceive([01;35m[Kconst boost::system::error_code& ec[m[K, size_t bytes_transferred)
+[15.646s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[15.646s] 
+[15.646s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/serial_port_service.cpp:113:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbytes_transferred[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.646s]   113 | vice::onReceive(const boost::system::error_code& ec, [01;35m[Ksize_t bytes_transferred[m[K)
+[15.646s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[15.646s] 
+[19.294s] [ 50%] [32m[1mLinking CXX shared library libserial_port_service.so[0m
+[19.928s] [ 50%] Built target serial_port_service
+[19.998s] [ 75%] [32mBuilding CXX object CMakeFiles/hoverboard_hardware_interface.dir/src/hoverboard_hardware_interface.cpp.o[0m
+[28.441s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/hoverboard_hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn hoverboard_hardware_interface::HoverboardHardwareInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’:
+[28.442s] [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/hoverboard_hardware_interface.cpp:21:57:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn hardware_interface::HardwareComponentInterface::[01;32m[Kon_init[m[K(const hardware_interface::HardwareInfo&)[m[K’ is deprecated: Use on_init(const HardwareComponentInterfaceParams & params) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[28.442s]    21 |         if ([01;35m[Khardware_interface::SystemInterface::on_init(info)[m[K != CallbackReturn::SUCCESS) {
+[28.442s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[28.442s] In file included from [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/system_interface.hpp:18[m[K,
+[28.442s]                  from [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/include/hoverboard_hardware_interface/hoverboard_hardware_interface.hpp:20[m[K,
+[28.442s]                  from [01m[K/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/src/hoverboard_hardware_interface.cpp:15[m[K:
+[28.442s] [01m[K/opt/ros/jazzy/include/hardware_interface/hardware_interface/hardware_component_interface.hpp:140:26:[m[K [01;36m[Knote: [m[Kdeclared here
+[28.442s]   140 |   virtual CallbackReturn [01;36m[Kon_init[m[K(const HardwareInfo & hardware_info);
+[28.442s]       |                          [01;36m[K^~~~~~~[m[K
+[31.540s] [100%] [32m[1mLinking CXX shared library libhoverboard_hardware_interface.so[0m
+[31.992s] [100%] Built target hoverboard_hardware_interface
+[32.013s] Invoked command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_hardware_interface -- -j4 -l4
+[32.015s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_hardware_interface
+[32.030s] -- Install configuration: ""
+[32.030s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/hoverboard_hardware_interface.xml
+[32.030s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include
+[32.030s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface
+[32.031s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/motor_wheel.hpp
+[32.031s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/serial_port_service.hpp
+[32.031s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/serial_port_protocol.hpp
+[32.031s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/hoverboard_hardware_interface.hpp
+[32.031s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/library_path.sh
+[32.031s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/library_path.dsv
+[32.032s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/libserial_port_service.so
+[32.033s] -- Set non-toolchain portion of runtime path of "/home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/libserial_port_service.so" to ""
+[32.034s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/libhoverboard_hardware_interface.so
+[32.035s] -- Set non-toolchain portion of runtime path of "/home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/libhoverboard_hardware_interface.so" to ""
+[32.036s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/package_run_dependencies/hoverboard_hardware_interface
+[32.036s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/parent_prefix_path/hoverboard_hardware_interface
+[32.036s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/ament_prefix_path.sh
+[32.036s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/ament_prefix_path.dsv
+[32.036s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/path.sh
+[32.037s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/path.dsv
+[32.037s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.bash
+[32.037s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.sh
+[32.037s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.zsh
+[32.037s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.dsv
+[32.037s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.dsv
+[32.038s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/packages/hoverboard_hardware_interface
+[32.038s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_hardware_interface
+[32.038s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.038s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.038s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[32.039s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/hoverboard_hardware_interfaceConfig.cmake
+[32.039s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/hoverboard_hardware_interfaceConfig-version.cmake
+[32.039s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.xml
+[32.042s] Invoked command in '/home/luqseee/robot_ws/build/hoverboard_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_hardware_interface

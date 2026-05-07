@@ -1,0 +1,30 @@
+In file included from [01m[K/home/luqseee/robot_ws/src/camera_ros/src/clamp.cpp:1[m[K:
+[01m[K/home/luqseee/robot_ws/src/camera_ros/src/exceptions.hpp:2:10:[m[K [01;31m[Kfatal error: [m[Klibcamera/controls.h: No such file or directory
+    2 | #include [01;31m[K<libcamera/controls.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/param.dir/build.make:76: CMakeFiles/param.dir/src/clamp.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/luqseee/robot_ws/src/camera_ros/src/cv_to_pv.hpp:2[m[K,
+                 from [01m[K/home/luqseee/robot_ws/src/camera_ros/src/cv_to_pv.cpp:1[m[K:
+[01m[K/home/luqseee/robot_ws/src/camera_ros/src/exceptions.hpp:2:10:[m[K [01;31m[Kfatal error: [m[Klibcamera/controls.h: No such file or directory
+    2 | #include [01;31m[K<libcamera/controls.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/param.dir/build.make:90: CMakeFiles/param.dir/src/cv_to_pv.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/param.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/luqseee/robot_ws/src/camera_ros/src/format_mapping.cpp:2[m[K:
+[01m[K/home/luqseee/robot_ws/src/camera_ros/src/libcamera_version_utils.hpp:2:10:[m[K [01;31m[Kfatal error: [m[Klibcamera/version.h: No such file or directory
+    2 | #include [01;31m[K<libcamera/version.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/utils.dir/build.make:76: CMakeFiles/utils.dir/src/format_mapping.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/luqseee/robot_ws/src/camera_ros/src/pretty_print.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Klibcamera/camera.h: No such file or directory
+    3 | #include [01;31m[K<libcamera/camera.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/utils.dir/build.make:90: CMakeFiles/utils.dir/src/pretty_print.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/utils.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

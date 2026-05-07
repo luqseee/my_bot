@@ -1,0 +1,1148 @@
+[
+{
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "cc -Iutils/ipu3/ipu3-pack.p -Iutils/ipu3 -I../../libcamera/utils/ipu3 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -O3 -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -MD -MQ utils/ipu3/ipu3-pack.p/ipu3-pack.c.o -MF utils/ipu3/ipu3-pack.p/ipu3-pack.c.o.d -o utils/ipu3/ipu3-pack.p/ipu3-pack.c.o -c ../../libcamera/utils/ipu3/ipu3-pack.c",
+    "file": "../../libcamera/utils/ipu3/ipu3-pack.c",
+    "output": "utils/ipu3/ipu3-pack.p/ipu3-pack.c.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "cc -Iutils/ipu3/ipu3-unpack.p -Iutils/ipu3 -I../../libcamera/utils/ipu3 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -O3 -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -MD -MQ utils/ipu3/ipu3-unpack.p/ipu3-unpack.c.o -MF utils/ipu3/ipu3-unpack.p/ipu3-unpack.c.o.d -o utils/ipu3/ipu3-unpack.p/ipu3-unpack.c.o -c ../../libcamera/utils/ipu3/ipu3-unpack.c",
+    "file": "../../libcamera/utils/ipu3/ipu3-unpack.c",
+    "output": "utils/ipu3/ipu3-unpack.p/ipu3-unpack.c.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/bound_method.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/bound_method.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/bound_method.cpp.o -c ../../libcamera/src/libcamera/base/bound_method.cpp",
+    "file": "../../libcamera/src/libcamera/base/bound_method.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/bound_method.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/class.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/class.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/class.cpp.o -c ../../libcamera/src/libcamera/base/class.cpp",
+    "file": "../../libcamera/src/libcamera/base/class.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/class.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/flags.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/flags.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/flags.cpp.o -c ../../libcamera/src/libcamera/base/flags.cpp",
+    "file": "../../libcamera/src/libcamera/base/flags.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/flags.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/object.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/object.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/object.cpp.o -c ../../libcamera/src/libcamera/base/object.cpp",
+    "file": "../../libcamera/src/libcamera/base/object.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/object.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/shared_fd.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/shared_fd.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/shared_fd.cpp.o -c ../../libcamera/src/libcamera/base/shared_fd.cpp",
+    "file": "../../libcamera/src/libcamera/base/shared_fd.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/shared_fd.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/signal.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/signal.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/signal.cpp.o -c ../../libcamera/src/libcamera/base/signal.cpp",
+    "file": "../../libcamera/src/libcamera/base/signal.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/signal.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/unique_fd.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/unique_fd.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/unique_fd.cpp.o -c ../../libcamera/src/libcamera/base/unique_fd.cpp",
+    "file": "../../libcamera/src/libcamera/base/unique_fd.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/unique_fd.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/backtrace.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/backtrace.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/backtrace.cpp.o -c ../../libcamera/src/libcamera/base/backtrace.cpp",
+    "file": "../../libcamera/src/libcamera/base/backtrace.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/backtrace.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/event_dispatcher.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/event_dispatcher.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/event_dispatcher.cpp.o -c ../../libcamera/src/libcamera/base/event_dispatcher.cpp",
+    "file": "../../libcamera/src/libcamera/base/event_dispatcher.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/event_dispatcher.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/event_dispatcher_poll.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/event_dispatcher_poll.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/event_dispatcher_poll.cpp.o -c ../../libcamera/src/libcamera/base/event_dispatcher_poll.cpp",
+    "file": "../../libcamera/src/libcamera/base/event_dispatcher_poll.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/event_dispatcher_poll.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/event_notifier.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/event_notifier.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/event_notifier.cpp.o -c ../../libcamera/src/libcamera/base/event_notifier.cpp",
+    "file": "../../libcamera/src/libcamera/base/event_notifier.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/event_notifier.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/file.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/file.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/file.cpp.o -c ../../libcamera/src/libcamera/base/file.cpp",
+    "file": "../../libcamera/src/libcamera/base/file.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/file.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/log.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/log.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/log.cpp.o -c ../../libcamera/src/libcamera/base/log.cpp",
+    "file": "../../libcamera/src/libcamera/base/log.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/log.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/memfd.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/memfd.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/memfd.cpp.o -c ../../libcamera/src/libcamera/base/memfd.cpp",
+    "file": "../../libcamera/src/libcamera/base/memfd.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/memfd.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/message.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/message.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/message.cpp.o -c ../../libcamera/src/libcamera/base/message.cpp",
+    "file": "../../libcamera/src/libcamera/base/message.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/message.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/mutex.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/mutex.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/mutex.cpp.o -c ../../libcamera/src/libcamera/base/mutex.cpp",
+    "file": "../../libcamera/src/libcamera/base/mutex.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/mutex.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/semaphore.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/semaphore.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/semaphore.cpp.o -c ../../libcamera/src/libcamera/base/semaphore.cpp",
+    "file": "../../libcamera/src/libcamera/base/semaphore.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/semaphore.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/thread.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/thread.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/thread.cpp.o -c ../../libcamera/src/libcamera/base/thread.cpp",
+    "file": "../../libcamera/src/libcamera/base/thread.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/thread.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/timer.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/timer.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/timer.cpp.o -c ../../libcamera/src/libcamera/base/timer.cpp",
+    "file": "../../libcamera/src/libcamera/base/timer.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/timer.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/base/libcamera-base.so.0.7.0.p -Isrc/libcamera/base -I../../libcamera/src/libcamera/base -Iinclude -I../../libcamera/include -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/base/libcamera-base.so.0.7.0.p/utils.cpp.o -MF src/libcamera/base/libcamera-base.so.0.7.0.p/utils.cpp.o.d -o src/libcamera/base/libcamera-base.so.0.7.0.p/utils.cpp.o -c ../../libcamera/src/libcamera/base/utils.cpp",
+    "file": "../../libcamera/src/libcamera/base/utils.cpp",
+    "output": "src/libcamera/base/libcamera-base.so.0.7.0.p/utils.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._control_ids.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._control_ids.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._control_ids.cpp.o -c src/libcamera/control_ids.cpp",
+    "file": "src/libcamera/control_ids.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._control_ids.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._property_ids.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._property_ids.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._property_ids.cpp.o -c src/libcamera/property_ids.cpp",
+    "file": "src/libcamera/property_ids.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._property_ids.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._version.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._version.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._version.cpp.o -c src/libcamera/version.cpp",
+    "file": "src/libcamera/version.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._version.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._proxy_raspberrypi_ipa_proxy.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._proxy_raspberrypi_ipa_proxy.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._proxy_raspberrypi_ipa_proxy.cpp.o -c src/libcamera/proxy/raspberrypi_ipa_proxy.cpp",
+    "file": "src/libcamera/proxy/raspberrypi_ipa_proxy.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._proxy_raspberrypi_ipa_proxy.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._ipa_pub_key.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._ipa_pub_key.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._ipa_pub_key.cpp.o -c src/libcamera/ipa_pub_key.cpp",
+    "file": "src/libcamera/ipa_pub_key.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/meson-generated_.._ipa_pub_key.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/camera.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/camera.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/camera.cpp.o -c ../../libcamera/src/libcamera/camera.cpp",
+    "file": "../../libcamera/src/libcamera/camera.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/camera.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/camera_manager.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/camera_manager.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/camera_manager.cpp.o -c ../../libcamera/src/libcamera/camera_manager.cpp",
+    "file": "../../libcamera/src/libcamera/camera_manager.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/camera_manager.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/color_space.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/color_space.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/color_space.cpp.o -c ../../libcamera/src/libcamera/color_space.cpp",
+    "file": "../../libcamera/src/libcamera/color_space.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/color_space.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/controls.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/controls.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/controls.cpp.o -c ../../libcamera/src/libcamera/controls.cpp",
+    "file": "../../libcamera/src/libcamera/controls.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/controls.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/fence.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/fence.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/fence.cpp.o -c ../../libcamera/src/libcamera/fence.cpp",
+    "file": "../../libcamera/src/libcamera/fence.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/fence.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/framebuffer.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/framebuffer.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/framebuffer.cpp.o -c ../../libcamera/src/libcamera/framebuffer.cpp",
+    "file": "../../libcamera/src/libcamera/framebuffer.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/framebuffer.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/framebuffer_allocator.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/framebuffer_allocator.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/framebuffer_allocator.cpp.o -c ../../libcamera/src/libcamera/framebuffer_allocator.cpp",
+    "file": "../../libcamera/src/libcamera/framebuffer_allocator.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/framebuffer_allocator.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/geometry.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/geometry.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/geometry.cpp.o -c ../../libcamera/src/libcamera/geometry.cpp",
+    "file": "../../libcamera/src/libcamera/geometry.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/geometry.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/orientation.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/orientation.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/orientation.cpp.o -c ../../libcamera/src/libcamera/orientation.cpp",
+    "file": "../../libcamera/src/libcamera/orientation.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/orientation.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/pixel_format.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/pixel_format.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/pixel_format.cpp.o -c ../../libcamera/src/libcamera/pixel_format.cpp",
+    "file": "../../libcamera/src/libcamera/pixel_format.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/pixel_format.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/request.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/request.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/request.cpp.o -c ../../libcamera/src/libcamera/request.cpp",
+    "file": "../../libcamera/src/libcamera/request.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/request.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/stream.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/stream.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/stream.cpp.o -c ../../libcamera/src/libcamera/stream.cpp",
+    "file": "../../libcamera/src/libcamera/stream.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/stream.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/transform.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/transform.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/transform.cpp.o -c ../../libcamera/src/libcamera/transform.cpp",
+    "file": "../../libcamera/src/libcamera/transform.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/transform.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/bayer_format.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/bayer_format.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/bayer_format.cpp.o -c ../../libcamera/src/libcamera/bayer_format.cpp",
+    "file": "../../libcamera/src/libcamera/bayer_format.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/bayer_format.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/byte_stream_buffer.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/byte_stream_buffer.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/byte_stream_buffer.cpp.o -c ../../libcamera/src/libcamera/byte_stream_buffer.cpp",
+    "file": "../../libcamera/src/libcamera/byte_stream_buffer.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/byte_stream_buffer.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/camera_controls.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/camera_controls.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/camera_controls.cpp.o -c ../../libcamera/src/libcamera/camera_controls.cpp",
+    "file": "../../libcamera/src/libcamera/camera_controls.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/camera_controls.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/camera_lens.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/camera_lens.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/camera_lens.cpp.o -c ../../libcamera/src/libcamera/camera_lens.cpp",
+    "file": "../../libcamera/src/libcamera/camera_lens.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/camera_lens.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/clock_recovery.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/clock_recovery.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/clock_recovery.cpp.o -c ../../libcamera/src/libcamera/clock_recovery.cpp",
+    "file": "../../libcamera/src/libcamera/clock_recovery.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/clock_recovery.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/control_serializer.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/control_serializer.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/control_serializer.cpp.o -c ../../libcamera/src/libcamera/control_serializer.cpp",
+    "file": "../../libcamera/src/libcamera/control_serializer.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/control_serializer.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/control_validator.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/control_validator.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/control_validator.cpp.o -c ../../libcamera/src/libcamera/control_validator.cpp",
+    "file": "../../libcamera/src/libcamera/control_validator.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/control_validator.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/converter.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/converter.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/converter.cpp.o -c ../../libcamera/src/libcamera/converter.cpp",
+    "file": "../../libcamera/src/libcamera/converter.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/converter.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/debug_controls.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/debug_controls.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/debug_controls.cpp.o -c ../../libcamera/src/libcamera/debug_controls.cpp",
+    "file": "../../libcamera/src/libcamera/debug_controls.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/debug_controls.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/delayed_controls.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/delayed_controls.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/delayed_controls.cpp.o -c ../../libcamera/src/libcamera/delayed_controls.cpp",
+    "file": "../../libcamera/src/libcamera/delayed_controls.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/delayed_controls.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/device_enumerator.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/device_enumerator.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/device_enumerator.cpp.o -c ../../libcamera/src/libcamera/device_enumerator.cpp",
+    "file": "../../libcamera/src/libcamera/device_enumerator.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/device_enumerator.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/device_enumerator_sysfs.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/device_enumerator_sysfs.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/device_enumerator_sysfs.cpp.o -c ../../libcamera/src/libcamera/device_enumerator_sysfs.cpp",
+    "file": "../../libcamera/src/libcamera/device_enumerator_sysfs.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/device_enumerator_sysfs.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/dma_buf_allocator.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/dma_buf_allocator.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/dma_buf_allocator.cpp.o -c ../../libcamera/src/libcamera/dma_buf_allocator.cpp",
+    "file": "../../libcamera/src/libcamera/dma_buf_allocator.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/dma_buf_allocator.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/formats.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/formats.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/formats.cpp.o -c ../../libcamera/src/libcamera/formats.cpp",
+    "file": "../../libcamera/src/libcamera/formats.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/formats.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/global_configuration.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/global_configuration.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/global_configuration.cpp.o -c ../../libcamera/src/libcamera/global_configuration.cpp",
+    "file": "../../libcamera/src/libcamera/global_configuration.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/global_configuration.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipa_controls.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipa_controls.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipa_controls.cpp.o -c ../../libcamera/src/libcamera/ipa_controls.cpp",
+    "file": "../../libcamera/src/libcamera/ipa_controls.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipa_controls.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipa_data_serializer.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipa_data_serializer.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipa_data_serializer.cpp.o -c ../../libcamera/src/libcamera/ipa_data_serializer.cpp",
+    "file": "../../libcamera/src/libcamera/ipa_data_serializer.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipa_data_serializer.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipa_interface.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipa_interface.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipa_interface.cpp.o -c ../../libcamera/src/libcamera/ipa_interface.cpp",
+    "file": "../../libcamera/src/libcamera/ipa_interface.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipa_interface.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipa_manager.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipa_manager.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipa_manager.cpp.o -c ../../libcamera/src/libcamera/ipa_manager.cpp",
+    "file": "../../libcamera/src/libcamera/ipa_manager.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipa_manager.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipa_module.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipa_module.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipa_module.cpp.o -c ../../libcamera/src/libcamera/ipa_module.cpp",
+    "file": "../../libcamera/src/libcamera/ipa_module.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipa_module.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipa_proxy.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipa_proxy.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipa_proxy.cpp.o -c ../../libcamera/src/libcamera/ipa_proxy.cpp",
+    "file": "../../libcamera/src/libcamera/ipa_proxy.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipa_proxy.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipc_pipe.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipc_pipe.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipc_pipe.cpp.o -c ../../libcamera/src/libcamera/ipc_pipe.cpp",
+    "file": "../../libcamera/src/libcamera/ipc_pipe.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipc_pipe.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipc_pipe_unixsocket.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipc_pipe_unixsocket.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipc_pipe_unixsocket.cpp.o -c ../../libcamera/src/libcamera/ipc_pipe_unixsocket.cpp",
+    "file": "../../libcamera/src/libcamera/ipc_pipe_unixsocket.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipc_pipe_unixsocket.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/ipc_unixsocket.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/ipc_unixsocket.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/ipc_unixsocket.cpp.o -c ../../libcamera/src/libcamera/ipc_unixsocket.cpp",
+    "file": "../../libcamera/src/libcamera/ipc_unixsocket.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/ipc_unixsocket.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/mapped_framebuffer.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/mapped_framebuffer.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/mapped_framebuffer.cpp.o -c ../../libcamera/src/libcamera/mapped_framebuffer.cpp",
+    "file": "../../libcamera/src/libcamera/mapped_framebuffer.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/mapped_framebuffer.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/matrix.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/matrix.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/matrix.cpp.o -c ../../libcamera/src/libcamera/matrix.cpp",
+    "file": "../../libcamera/src/libcamera/matrix.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/matrix.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/media_device.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/media_device.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/media_device.cpp.o -c ../../libcamera/src/libcamera/media_device.cpp",
+    "file": "../../libcamera/src/libcamera/media_device.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/media_device.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/media_object.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/media_object.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/media_object.cpp.o -c ../../libcamera/src/libcamera/media_object.cpp",
+    "file": "../../libcamera/src/libcamera/media_object.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/media_object.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/media_pipeline.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/media_pipeline.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/media_pipeline.cpp.o -c ../../libcamera/src/libcamera/media_pipeline.cpp",
+    "file": "../../libcamera/src/libcamera/media_pipeline.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/media_pipeline.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/pipeline_handler.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/pipeline_handler.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/pipeline_handler.cpp.o -c ../../libcamera/src/libcamera/pipeline_handler.cpp",
+    "file": "../../libcamera/src/libcamera/pipeline_handler.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/pipeline_handler.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/process.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/process.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/process.cpp.o -c ../../libcamera/src/libcamera/process.cpp",
+    "file": "../../libcamera/src/libcamera/process.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/process.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/pub_key.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/pub_key.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/pub_key.cpp.o -c ../../libcamera/src/libcamera/pub_key.cpp",
+    "file": "../../libcamera/src/libcamera/pub_key.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/pub_key.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/shared_mem_object.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/shared_mem_object.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/shared_mem_object.cpp.o -c ../../libcamera/src/libcamera/shared_mem_object.cpp",
+    "file": "../../libcamera/src/libcamera/shared_mem_object.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/shared_mem_object.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/source_paths.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/source_paths.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/source_paths.cpp.o -c ../../libcamera/src/libcamera/source_paths.cpp",
+    "file": "../../libcamera/src/libcamera/source_paths.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/source_paths.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/sysfs.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/sysfs.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/sysfs.cpp.o -c ../../libcamera/src/libcamera/sysfs.cpp",
+    "file": "../../libcamera/src/libcamera/sysfs.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/sysfs.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/v4l2_device.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/v4l2_device.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/v4l2_device.cpp.o -c ../../libcamera/src/libcamera/v4l2_device.cpp",
+    "file": "../../libcamera/src/libcamera/v4l2_device.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/v4l2_device.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/v4l2_pixelformat.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/v4l2_pixelformat.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/v4l2_pixelformat.cpp.o -c ../../libcamera/src/libcamera/v4l2_pixelformat.cpp",
+    "file": "../../libcamera/src/libcamera/v4l2_pixelformat.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/v4l2_pixelformat.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/v4l2_request.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/v4l2_request.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/v4l2_request.cpp.o -c ../../libcamera/src/libcamera/v4l2_request.cpp",
+    "file": "../../libcamera/src/libcamera/v4l2_request.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/v4l2_request.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/v4l2_subdevice.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/v4l2_subdevice.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/v4l2_subdevice.cpp.o -c ../../libcamera/src/libcamera/v4l2_subdevice.cpp",
+    "file": "../../libcamera/src/libcamera/v4l2_subdevice.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/v4l2_subdevice.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/v4l2_videodevice.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/v4l2_videodevice.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/v4l2_videodevice.cpp.o -c ../../libcamera/src/libcamera/v4l2_videodevice.cpp",
+    "file": "../../libcamera/src/libcamera/v4l2_videodevice.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/v4l2_videodevice.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/vector.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/vector.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/vector.cpp.o -c ../../libcamera/src/libcamera/vector.cpp",
+    "file": "../../libcamera/src/libcamera/vector.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/vector.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/yaml_parser.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/yaml_parser.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/yaml_parser.cpp.o -c ../../libcamera/src/libcamera/yaml_parser.cpp",
+    "file": "../../libcamera/src/libcamera/yaml_parser.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/yaml_parser.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/egl.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/egl.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/egl.cpp.o -c ../../libcamera/src/libcamera/egl.cpp",
+    "file": "../../libcamera/src/libcamera/egl.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/egl.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/converter_converter_dw100.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/converter_converter_dw100.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/converter_converter_dw100.cpp.o -c ../../libcamera/src/libcamera/converter/converter_dw100.cpp",
+    "file": "../../libcamera/src/libcamera/converter/converter_dw100.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/converter_converter_dw100.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/converter_converter_dw100_vertexmap.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/converter_converter_dw100_vertexmap.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/converter_converter_dw100_vertexmap.cpp.o -c ../../libcamera/src/libcamera/converter/converter_dw100_vertexmap.cpp",
+    "file": "../../libcamera/src/libcamera/converter/converter_dw100_vertexmap.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/converter_converter_dw100_vertexmap.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/converter_converter_v4l2_m2m.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/converter_converter_v4l2_m2m.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/converter_converter_v4l2_m2m.cpp.o -c ../../libcamera/src/libcamera/converter/converter_v4l2_m2m.cpp",
+    "file": "../../libcamera/src/libcamera/converter/converter_v4l2_m2m.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/converter_converter_v4l2_m2m.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_delayed_controls.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_delayed_controls.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_delayed_controls.cpp.o -c ../../libcamera/src/libcamera/pipeline/rpi/common/delayed_controls.cpp",
+    "file": "../../libcamera/src/libcamera/pipeline/rpi/common/delayed_controls.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_delayed_controls.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_pipeline_base.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_pipeline_base.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_pipeline_base.cpp.o -c ../../libcamera/src/libcamera/pipeline/rpi/common/pipeline_base.cpp",
+    "file": "../../libcamera/src/libcamera/pipeline/rpi/common/pipeline_base.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_pipeline_base.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_rpi_stream.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_rpi_stream.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_rpi_stream.cpp.o -c ../../libcamera/src/libcamera/pipeline/rpi/common/rpi_stream.cpp",
+    "file": "../../libcamera/src/libcamera/pipeline/rpi/common/rpi_stream.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_common_rpi_stream.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_pisp_pisp.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_pisp_pisp.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_pisp_pisp.cpp.o -c ../../libcamera/src/libcamera/pipeline/rpi/pisp/pisp.cpp",
+    "file": "../../libcamera/src/libcamera/pipeline/rpi/pisp/pisp.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_pisp_pisp.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_vc4_vc4.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_vc4_vc4.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_vc4_vc4.cpp.o -c ../../libcamera/src/libcamera/pipeline/rpi/vc4/vc4.cpp",
+    "file": "../../libcamera/src/libcamera/pipeline/rpi/vc4/vc4.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/pipeline_rpi_vc4_vc4.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor.cpp.o -c ../../libcamera/src/libcamera/sensor/camera_sensor.cpp",
+    "file": "../../libcamera/src/libcamera/sensor/camera_sensor.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_legacy.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_legacy.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_legacy.cpp.o -c ../../libcamera/src/libcamera/sensor/camera_sensor_legacy.cpp",
+    "file": "../../libcamera/src/libcamera/sensor/camera_sensor_legacy.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_legacy.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_properties.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_properties.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_properties.cpp.o -c ../../libcamera/src/libcamera/sensor/camera_sensor_properties.cpp",
+    "file": "../../libcamera/src/libcamera/sensor/camera_sensor_properties.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_properties.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_raw.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_raw.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_raw.cpp.o -c ../../libcamera/src/libcamera/sensor/camera_sensor_raw.cpp",
+    "file": "../../libcamera/src/libcamera/sensor/camera_sensor_raw.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/sensor_camera_sensor_raw.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/tracepoints.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/tracepoints.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/tracepoints.cpp.o -c ../../libcamera/src/libcamera/tracepoints.cpp",
+    "file": "../../libcamera/src/libcamera/tracepoints.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/tracepoints.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/libcamera.so.0.7.0.p -Isrc/libcamera -I../../libcamera/src/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera -Iinclude/libcamera/ipa -Iinclude/libcamera/internal -Isrc/libcamera/proxy -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -I/usr/include/p11-kit-1 -I/usr/include/aarch64-linux-gnu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/libcamera.so.0.7.0.p/device_enumerator_udev.cpp.o -MF src/libcamera/libcamera.so.0.7.0.p/device_enumerator_udev.cpp.o.d -o src/libcamera/libcamera.so.0.7.0.p/device_enumerator_udev.cpp.o -c ../../libcamera/src/libcamera/device_enumerator_udev.cpp",
+    "file": "../../libcamera/src/libcamera/device_enumerator_udev.cpp",
+    "output": "src/libcamera/libcamera.so.0.7.0.p/device_enumerator_udev.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/libcamera/proxy/worker/raspberrypi_ipa_proxy.p -Isrc/libcamera/proxy/worker -I../../libcamera/src/libcamera/proxy/worker -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/libcamera/proxy/worker/raspberrypi_ipa_proxy.p/meson-generated_.._raspberrypi_ipa_proxy_worker.cpp.o -MF src/libcamera/proxy/worker/raspberrypi_ipa_proxy.p/meson-generated_.._raspberrypi_ipa_proxy_worker.cpp.o.d -o src/libcamera/proxy/worker/raspberrypi_ipa_proxy.p/meson-generated_.._raspberrypi_ipa_proxy_worker.cpp.o -c src/libcamera/proxy/worker/raspberrypi_ipa_proxy_worker.cpp",
+    "file": "src/libcamera/proxy/worker/raspberrypi_ipa_proxy_worker.cpp",
+    "output": "src/libcamera/proxy/worker/raspberrypi_ipa_proxy.p/meson-generated_.._raspberrypi_ipa_proxy_worker.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/agc_mean_luminance.cpp.o -MF src/ipa/libipa/libipa.a.p/agc_mean_luminance.cpp.o.d -o src/ipa/libipa/libipa.a.p/agc_mean_luminance.cpp.o -c ../../libcamera/src/ipa/libipa/agc_mean_luminance.cpp",
+    "file": "../../libcamera/src/ipa/libipa/agc_mean_luminance.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/agc_mean_luminance.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/algorithm.cpp.o -MF src/ipa/libipa/libipa.a.p/algorithm.cpp.o.d -o src/ipa/libipa/libipa.a.p/algorithm.cpp.o -c ../../libcamera/src/ipa/libipa/algorithm.cpp",
+    "file": "../../libcamera/src/ipa/libipa/algorithm.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/algorithm.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/awb_bayes.cpp.o -MF src/ipa/libipa/libipa.a.p/awb_bayes.cpp.o.d -o src/ipa/libipa/libipa.a.p/awb_bayes.cpp.o -c ../../libcamera/src/ipa/libipa/awb_bayes.cpp",
+    "file": "../../libcamera/src/ipa/libipa/awb_bayes.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/awb_bayes.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/awb_grey.cpp.o -MF src/ipa/libipa/libipa.a.p/awb_grey.cpp.o.d -o src/ipa/libipa/libipa.a.p/awb_grey.cpp.o -c ../../libcamera/src/ipa/libipa/awb_grey.cpp",
+    "file": "../../libcamera/src/ipa/libipa/awb_grey.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/awb_grey.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/awb.cpp.o -MF src/ipa/libipa/libipa.a.p/awb.cpp.o.d -o src/ipa/libipa/libipa.a.p/awb.cpp.o -c ../../libcamera/src/ipa/libipa/awb.cpp",
+    "file": "../../libcamera/src/ipa/libipa/awb.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/awb.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/camera_sensor_helper.cpp.o -MF src/ipa/libipa/libipa.a.p/camera_sensor_helper.cpp.o.d -o src/ipa/libipa/libipa.a.p/camera_sensor_helper.cpp.o -c ../../libcamera/src/ipa/libipa/camera_sensor_helper.cpp",
+    "file": "../../libcamera/src/ipa/libipa/camera_sensor_helper.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/camera_sensor_helper.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/colours.cpp.o -MF src/ipa/libipa/libipa.a.p/colours.cpp.o.d -o src/ipa/libipa/libipa.a.p/colours.cpp.o -c ../../libcamera/src/ipa/libipa/colours.cpp",
+    "file": "../../libcamera/src/ipa/libipa/colours.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/colours.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/exposure_mode_helper.cpp.o -MF src/ipa/libipa/libipa.a.p/exposure_mode_helper.cpp.o.d -o src/ipa/libipa/libipa.a.p/exposure_mode_helper.cpp.o -c ../../libcamera/src/ipa/libipa/exposure_mode_helper.cpp",
+    "file": "../../libcamera/src/ipa/libipa/exposure_mode_helper.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/exposure_mode_helper.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/fc_queue.cpp.o -MF src/ipa/libipa/libipa.a.p/fc_queue.cpp.o.d -o src/ipa/libipa/libipa.a.p/fc_queue.cpp.o -c ../../libcamera/src/ipa/libipa/fc_queue.cpp",
+    "file": "../../libcamera/src/ipa/libipa/fc_queue.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/fc_queue.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/fixedpoint.cpp.o -MF src/ipa/libipa/libipa.a.p/fixedpoint.cpp.o.d -o src/ipa/libipa/libipa.a.p/fixedpoint.cpp.o -c ../../libcamera/src/ipa/libipa/fixedpoint.cpp",
+    "file": "../../libcamera/src/ipa/libipa/fixedpoint.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/fixedpoint.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/histogram.cpp.o -MF src/ipa/libipa/libipa.a.p/histogram.cpp.o.d -o src/ipa/libipa/libipa.a.p/histogram.cpp.o -c ../../libcamera/src/ipa/libipa/histogram.cpp",
+    "file": "../../libcamera/src/ipa/libipa/histogram.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/histogram.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/interpolator.cpp.o -MF src/ipa/libipa/libipa.a.p/interpolator.cpp.o.d -o src/ipa/libipa/libipa.a.p/interpolator.cpp.o -c ../../libcamera/src/ipa/libipa/interpolator.cpp",
+    "file": "../../libcamera/src/ipa/libipa/interpolator.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/interpolator.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/lsc_polynomial.cpp.o -MF src/ipa/libipa/libipa.a.p/lsc_polynomial.cpp.o.d -o src/ipa/libipa/libipa.a.p/lsc_polynomial.cpp.o -c ../../libcamera/src/ipa/libipa/lsc_polynomial.cpp",
+    "file": "../../libcamera/src/ipa/libipa/lsc_polynomial.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/lsc_polynomial.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/lux.cpp.o -MF src/ipa/libipa/libipa.a.p/lux.cpp.o.d -o src/ipa/libipa/libipa.a.p/lux.cpp.o -c ../../libcamera/src/ipa/libipa/lux.cpp",
+    "file": "../../libcamera/src/ipa/libipa/lux.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/lux.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/module.cpp.o -MF src/ipa/libipa/libipa.a.p/module.cpp.o.d -o src/ipa/libipa/libipa.a.p/module.cpp.o -c ../../libcamera/src/ipa/libipa/module.cpp",
+    "file": "../../libcamera/src/ipa/libipa/module.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/module.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/pwl.cpp.o -MF src/ipa/libipa/libipa.a.p/pwl.cpp.o.d -o src/ipa/libipa/libipa.a.p/pwl.cpp.o -c ../../libcamera/src/ipa/libipa/pwl.cpp",
+    "file": "../../libcamera/src/ipa/libipa/pwl.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/pwl.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/libipa/libipa.a.p -Isrc/ipa/libipa -I../../libcamera/src/ipa/libipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/libipa/libipa.a.p/v4l2_params.cpp.o -MF src/ipa/libipa/libipa.a.p/v4l2_params.cpp.o.d -o src/ipa/libipa/libipa.a.p/v4l2_params.cpp.o -c ../../libcamera/src/ipa/libipa/v4l2_params.cpp",
+    "file": "../../libcamera/src/ipa/libipa/v4l2_params.cpp",
+    "output": "src/ipa/libipa/libipa.a.p/v4l2_params.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov5647.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov5647.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov5647.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_ov5647.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_ov5647.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov5647.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx219.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx219.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx219.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx219.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx219.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx219.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx283.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx283.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx283.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx283.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx283.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx283.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx290.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx290.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx290.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx290.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx290.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx290.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx296.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx296.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx296.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx296.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx296.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx296.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx415.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx415.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx415.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx415.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx415.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx415.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx477.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx477.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx477.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx477.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx477.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx477.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx500.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx500.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx500.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx500.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx500.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx500.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx519.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx519.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx519.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx519.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx519.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx519.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx708.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx708.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx708.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx708.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_imx708.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_imx708.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov64a40.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov64a40.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov64a40.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_ov64a40.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_ov64a40.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov64a40.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov7251.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov7251.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov7251.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_ov7251.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_ov7251.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov7251.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov9281.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov9281.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov9281.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_ov9281.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_ov9281.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_ov9281.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_vd55g1.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_vd55g1.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_vd55g1.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_vd55g1.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_vd55g1.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_vd55g1.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_vd56g3.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_vd56g3.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_vd56g3.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/cam_helper_vd56g3.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/cam_helper_vd56g3.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/cam_helper_vd56g3.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/md_parser_smia.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/md_parser_smia.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/md_parser_smia.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/md_parser_smia.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/md_parser_smia.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/md_parser_smia.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p -Isrc/ipa/rpi/cam_helper -I../../libcamera/src/ipa/rpi/cam_helper -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/imx500_tensor_parser_imx500_tensor_parser.cpp.o -MF src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/imx500_tensor_parser_imx500_tensor_parser.cpp.o.d -o src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/imx500_tensor_parser_imx500_tensor_parser.cpp.o -c ../../libcamera/src/ipa/rpi/cam_helper/imx500_tensor_parser/imx500_tensor_parser.cpp",
+    "file": "../../libcamera/src/ipa/rpi/cam_helper/imx500_tensor_parser/imx500_tensor_parser.cpp",
+    "output": "src/ipa/rpi/cam_helper/librpi_ipa_cam_helper.a.p/imx500_tensor_parser_imx500_tensor_parser.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/common/librpi_ipa_common.a.p -Isrc/ipa/rpi/common -I../../libcamera/src/ipa/rpi/common -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/common/librpi_ipa_common.a.p/ipa_base.cpp.o -MF src/ipa/rpi/common/librpi_ipa_common.a.p/ipa_base.cpp.o.d -o src/ipa/rpi/common/librpi_ipa_common.a.p/ipa_base.cpp.o -c ../../libcamera/src/ipa/rpi/common/ipa_base.cpp",
+    "file": "../../libcamera/src/ipa/rpi/common/ipa_base.cpp",
+    "output": "src/ipa/rpi/common/librpi_ipa_common.a.p/ipa_base.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/algorithm.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/algorithm.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/algorithm.cpp.o -c ../../libcamera/src/ipa/rpi/controller/algorithm.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/algorithm.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/algorithm.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/controller.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/controller.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/controller.cpp.o -c ../../libcamera/src/ipa/rpi/controller/controller.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/controller.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/controller.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/device_status.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/device_status.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/device_status.cpp.o -c ../../libcamera/src/ipa/rpi/controller/device_status.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/device_status.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/device_status.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/histogram.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/histogram.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/histogram.cpp.o -c ../../libcamera/src/ipa/rpi/controller/histogram.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/histogram.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/histogram.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_af.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_af.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_af.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/af.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/af.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_af.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_agc.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_agc.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_agc.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/agc.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/agc.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_agc.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_agc_channel.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_agc_channel.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_agc_channel.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/agc_channel.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/agc_channel.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_agc_channel.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_alsc.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_alsc.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_alsc.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/alsc.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/alsc.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_alsc.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_awb.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_awb.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_awb.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/awb.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/awb.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_awb.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_awb_bayes.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_awb_bayes.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_awb_bayes.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/awb_bayes.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/awb_bayes.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_awb_bayes.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_black_level.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_black_level.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_black_level.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/black_level.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/black_level.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_black_level.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_cac.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_cac.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_cac.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/cac.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/cac.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_cac.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_ccm.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_ccm.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_ccm.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/ccm.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/ccm.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_ccm.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_contrast.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_contrast.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_contrast.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/contrast.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/contrast.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_contrast.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_decompand.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_decompand.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_decompand.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/decompand.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/decompand.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_decompand.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_denoise.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_denoise.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_denoise.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/denoise.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/denoise.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_denoise.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_dpc.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_dpc.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_dpc.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/dpc.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/dpc.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_dpc.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_geq.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_geq.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_geq.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/geq.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/geq.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_geq.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_hdr.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_hdr.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_hdr.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/hdr.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/hdr.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_hdr.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_lux.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_lux.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_lux.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/lux.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/lux.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_lux.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_noise.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_noise.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_noise.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/noise.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/noise.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_noise.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_saturation.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_saturation.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_saturation.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/saturation.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/saturation.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_saturation.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sdn.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sdn.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sdn.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/sdn.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/sdn.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sdn.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sharpen.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sharpen.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sharpen.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/sharpen.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/sharpen.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sharpen.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sync.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sync.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sync.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/sync.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/sync.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_sync.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/controller/librpi_ipa_controller.a.p -Isrc/ipa/rpi/controller -I../../libcamera/src/ipa/rpi/controller -Isrc/ipa -I../../libcamera/src/ipa -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_tonemap.cpp.o -MF src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_tonemap.cpp.o.d -o src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_tonemap.cpp.o -c ../../libcamera/src/ipa/rpi/controller/rpi/tonemap.cpp",
+    "file": "../../libcamera/src/ipa/rpi/controller/rpi/tonemap.cpp",
+    "output": "src/ipa/rpi/controller/librpi_ipa_controller.a.p/rpi_tonemap.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/pisp/ipa_rpi_pisp.so.p -Isrc/ipa/rpi/pisp -I../../libcamera/src/ipa/rpi/pisp -Iinclude -I../../libcamera/include -Isrc/ipa -I../../libcamera/src/ipa -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Iinclude/libcamera/ipa -Iinclude/libcamera -I/home/luqseee/robot_ws/install/libcamera/include/libpisp -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -Wno-address-of-packed-member -MD -MQ src/ipa/rpi/pisp/ipa_rpi_pisp.so.p/pisp.cpp.o -MF src/ipa/rpi/pisp/ipa_rpi_pisp.so.p/pisp.cpp.o.d -o src/ipa/rpi/pisp/ipa_rpi_pisp.so.p/pisp.cpp.o -c ../../libcamera/src/ipa/rpi/pisp/pisp.cpp",
+    "file": "../../libcamera/src/ipa/rpi/pisp/pisp.cpp",
+    "output": "src/ipa/rpi/pisp/ipa_rpi_pisp.so.p/pisp.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/ipa/rpi/vc4/ipa_rpi_vc4.so.p -Isrc/ipa/rpi/vc4 -I../../libcamera/src/ipa/rpi/vc4 -Iinclude -I../../libcamera/include -Isrc/ipa/rpi -I../../libcamera/src/ipa/rpi -Isrc/ipa -I../../libcamera/src/ipa -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/ipa/rpi/vc4/ipa_rpi_vc4.so.p/vc4.cpp.o -MF src/ipa/rpi/vc4/ipa_rpi_vc4.so.p/vc4.cpp.o.d -o src/ipa/rpi/vc4/ipa_rpi_vc4.so.p/vc4.cpp.o -c ../../libcamera/src/ipa/rpi/vc4/vc4.cpp",
+    "file": "../../libcamera/src/ipa/rpi/vc4/vc4.cpp",
+    "output": "src/ipa/rpi/vc4/ipa_rpi_vc4.so.p/vc4.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/apps/common/libapps.a.p -Isrc/apps/common -I../../libcamera/src/apps/common -Iinclude -I../../libcamera/include -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DHAVE_TIFF -MD -MQ src/apps/common/libapps.a.p/image.cpp.o -MF src/apps/common/libapps.a.p/image.cpp.o.d -o src/apps/common/libapps.a.p/image.cpp.o -c ../../libcamera/src/apps/common/image.cpp",
+    "file": "../../libcamera/src/apps/common/image.cpp",
+    "output": "src/apps/common/libapps.a.p/image.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/apps/common/libapps.a.p -Isrc/apps/common -I../../libcamera/src/apps/common -Iinclude -I../../libcamera/include -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DHAVE_TIFF -MD -MQ src/apps/common/libapps.a.p/options.cpp.o -MF src/apps/common/libapps.a.p/options.cpp.o.d -o src/apps/common/libapps.a.p/options.cpp.o -c ../../libcamera/src/apps/common/options.cpp",
+    "file": "../../libcamera/src/apps/common/options.cpp",
+    "output": "src/apps/common/libapps.a.p/options.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/apps/common/libapps.a.p -Isrc/apps/common -I../../libcamera/src/apps/common -Iinclude -I../../libcamera/include -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DHAVE_TIFF -MD -MQ src/apps/common/libapps.a.p/ppm_writer.cpp.o -MF src/apps/common/libapps.a.p/ppm_writer.cpp.o.d -o src/apps/common/libapps.a.p/ppm_writer.cpp.o -c ../../libcamera/src/apps/common/ppm_writer.cpp",
+    "file": "../../libcamera/src/apps/common/ppm_writer.cpp",
+    "output": "src/apps/common/libapps.a.p/ppm_writer.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/apps/common/libapps.a.p -Isrc/apps/common -I../../libcamera/src/apps/common -Iinclude -I../../libcamera/include -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DHAVE_TIFF -MD -MQ src/apps/common/libapps.a.p/stream_options.cpp.o -MF src/apps/common/libapps.a.p/stream_options.cpp.o.d -o src/apps/common/libapps.a.p/stream_options.cpp.o -c ../../libcamera/src/apps/common/stream_options.cpp",
+    "file": "../../libcamera/src/apps/common/stream_options.cpp",
+    "output": "src/apps/common/libapps.a.p/stream_options.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/apps/common/libapps.a.p -Isrc/apps/common -I../../libcamera/src/apps/common -Iinclude -I../../libcamera/include -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DHAVE_TIFF -MD -MQ src/apps/common/libapps.a.p/dng_writer.cpp.o -MF src/apps/common/libapps.a.p/dng_writer.cpp.o.d -o src/apps/common/libapps.a.p/dng_writer.cpp.o -c ../../libcamera/src/apps/common/dng_writer.cpp",
+    "file": "../../libcamera/src/apps/common/dng_writer.cpp",
+    "output": "src/apps/common/libapps.a.p/dng_writer.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/apps/ipa-verify/ipa_verify.p -Isrc/apps/ipa-verify -I../../libcamera/src/apps/ipa-verify -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -DLIBCAMERA_BASE_PRIVATE -MD -MQ src/apps/ipa-verify/ipa_verify.p/main.cpp.o -MF src/apps/ipa-verify/ipa_verify.p/main.cpp.o.d -o src/apps/ipa-verify/ipa_verify.p/main.cpp.o -c ../../libcamera/src/apps/ipa-verify/main.cpp",
+    "file": "../../libcamera/src/apps/ipa-verify/main.cpp",
+    "output": "src/apps/ipa-verify/ipa_verify.p/main.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/gstreamer/libgstlibcamera.so.p -Isrc/gstreamer -I../../libcamera/src/gstreamer -Iinclude -I../../libcamera/include -Iinclude/libcamera -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include -I/usr/include/aarch64-linux-gnu -I/usr/include/orc-0.4 -I/usr/include/libdrm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread '-DVERSION=\"0.7.0+rpt20260205+2-fe601eb6\"' '-DPACKAGE=\"libcamera\"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40 -MD -MQ src/gstreamer/libgstlibcamera.so.p/meson-generated_.._gstlibcamera-controls.cpp.o -MF src/gstreamer/libgstlibcamera.so.p/meson-generated_.._gstlibcamera-controls.cpp.o.d -o src/gstreamer/libgstlibcamera.so.p/meson-generated_.._gstlibcamera-controls.cpp.o -c src/gstreamer/gstlibcamera-controls.cpp",
+    "file": "src/gstreamer/gstlibcamera-controls.cpp",
+    "output": "src/gstreamer/libgstlibcamera.so.p/meson-generated_.._gstlibcamera-controls.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/gstreamer/libgstlibcamera.so.p -Isrc/gstreamer -I../../libcamera/src/gstreamer -Iinclude -I../../libcamera/include -Iinclude/libcamera -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include -I/usr/include/aarch64-linux-gnu -I/usr/include/orc-0.4 -I/usr/include/libdrm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread '-DVERSION=\"0.7.0+rpt20260205+2-fe601eb6\"' '-DPACKAGE=\"libcamera\"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40 -MD -MQ src/gstreamer/libgstlibcamera.so.p/gstlibcamera-utils.cpp.o -MF src/gstreamer/libgstlibcamera.so.p/gstlibcamera-utils.cpp.o.d -o src/gstreamer/libgstlibcamera.so.p/gstlibcamera-utils.cpp.o -c ../../libcamera/src/gstreamer/gstlibcamera-utils.cpp",
+    "file": "../../libcamera/src/gstreamer/gstlibcamera-utils.cpp",
+    "output": "src/gstreamer/libgstlibcamera.so.p/gstlibcamera-utils.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/gstreamer/libgstlibcamera.so.p -Isrc/gstreamer -I../../libcamera/src/gstreamer -Iinclude -I../../libcamera/include -Iinclude/libcamera -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include -I/usr/include/aarch64-linux-gnu -I/usr/include/orc-0.4 -I/usr/include/libdrm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread '-DVERSION=\"0.7.0+rpt20260205+2-fe601eb6\"' '-DPACKAGE=\"libcamera\"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40 -MD -MQ src/gstreamer/libgstlibcamera.so.p/gstlibcamera.cpp.o -MF src/gstreamer/libgstlibcamera.so.p/gstlibcamera.cpp.o.d -o src/gstreamer/libgstlibcamera.so.p/gstlibcamera.cpp.o -c ../../libcamera/src/gstreamer/gstlibcamera.cpp",
+    "file": "../../libcamera/src/gstreamer/gstlibcamera.cpp",
+    "output": "src/gstreamer/libgstlibcamera.so.p/gstlibcamera.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/gstreamer/libgstlibcamera.so.p -Isrc/gstreamer -I../../libcamera/src/gstreamer -Iinclude -I../../libcamera/include -Iinclude/libcamera -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include -I/usr/include/aarch64-linux-gnu -I/usr/include/orc-0.4 -I/usr/include/libdrm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread '-DVERSION=\"0.7.0+rpt20260205+2-fe601eb6\"' '-DPACKAGE=\"libcamera\"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40 -MD -MQ src/gstreamer/libgstlibcamera.so.p/gstlibcameraallocator.cpp.o -MF src/gstreamer/libgstlibcamera.so.p/gstlibcameraallocator.cpp.o.d -o src/gstreamer/libgstlibcamera.so.p/gstlibcameraallocator.cpp.o -c ../../libcamera/src/gstreamer/gstlibcameraallocator.cpp",
+    "file": "../../libcamera/src/gstreamer/gstlibcameraallocator.cpp",
+    "output": "src/gstreamer/libgstlibcamera.so.p/gstlibcameraallocator.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/gstreamer/libgstlibcamera.so.p -Isrc/gstreamer -I../../libcamera/src/gstreamer -Iinclude -I../../libcamera/include -Iinclude/libcamera -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include -I/usr/include/aarch64-linux-gnu -I/usr/include/orc-0.4 -I/usr/include/libdrm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread '-DVERSION=\"0.7.0+rpt20260205+2-fe601eb6\"' '-DPACKAGE=\"libcamera\"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40 -MD -MQ src/gstreamer/libgstlibcamera.so.p/gstlibcamerapad.cpp.o -MF src/gstreamer/libgstlibcamera.so.p/gstlibcamerapad.cpp.o.d -o src/gstreamer/libgstlibcamera.so.p/gstlibcamerapad.cpp.o -c ../../libcamera/src/gstreamer/gstlibcamerapad.cpp",
+    "file": "../../libcamera/src/gstreamer/gstlibcamerapad.cpp",
+    "output": "src/gstreamer/libgstlibcamera.so.p/gstlibcamerapad.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/gstreamer/libgstlibcamera.so.p -Isrc/gstreamer -I../../libcamera/src/gstreamer -Iinclude -I../../libcamera/include -Iinclude/libcamera -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include -I/usr/include/aarch64-linux-gnu -I/usr/include/orc-0.4 -I/usr/include/libdrm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread '-DVERSION=\"0.7.0+rpt20260205+2-fe601eb6\"' '-DPACKAGE=\"libcamera\"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40 -MD -MQ src/gstreamer/libgstlibcamera.so.p/gstlibcamerapool.cpp.o -MF src/gstreamer/libgstlibcamera.so.p/gstlibcamerapool.cpp.o.d -o src/gstreamer/libgstlibcamera.so.p/gstlibcamerapool.cpp.o -c ../../libcamera/src/gstreamer/gstlibcamerapool.cpp",
+    "file": "../../libcamera/src/gstreamer/gstlibcamerapool.cpp",
+    "output": "src/gstreamer/libgstlibcamera.so.p/gstlibcamerapool.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/gstreamer/libgstlibcamera.so.p -Isrc/gstreamer -I../../libcamera/src/gstreamer -Iinclude -I../../libcamera/include -Iinclude/libcamera -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include -I/usr/include/aarch64-linux-gnu -I/usr/include/orc-0.4 -I/usr/include/libdrm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread '-DVERSION=\"0.7.0+rpt20260205+2-fe601eb6\"' '-DPACKAGE=\"libcamera\"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40 -MD -MQ src/gstreamer/libgstlibcamera.so.p/gstlibcameraprovider.cpp.o -MF src/gstreamer/libgstlibcamera.so.p/gstlibcameraprovider.cpp.o.d -o src/gstreamer/libgstlibcamera.so.p/gstlibcameraprovider.cpp.o -c ../../libcamera/src/gstreamer/gstlibcameraprovider.cpp",
+    "file": "../../libcamera/src/gstreamer/gstlibcameraprovider.cpp",
+    "output": "src/gstreamer/libgstlibcamera.so.p/gstlibcameraprovider.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/gstreamer/libgstlibcamera.so.p -Isrc/gstreamer -I../../libcamera/src/gstreamer -Iinclude -I../../libcamera/include -Iinclude/libcamera -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include -I/usr/include/aarch64-linux-gnu -I/usr/include/orc-0.4 -I/usr/include/libdrm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -pthread '-DVERSION=\"0.7.0+rpt20260205+2-fe601eb6\"' '-DPACKAGE=\"libcamera\"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_40 -MD -MQ src/gstreamer/libgstlibcamera.so.p/gstlibcamerasrc.cpp.o -MF src/gstreamer/libgstlibcamera.so.p/gstlibcamerasrc.cpp.o.d -o src/gstreamer/libgstlibcamera.so.p/gstlibcamerasrc.cpp.o -c ../../libcamera/src/gstreamer/gstlibcamerasrc.cpp",
+    "file": "../../libcamera/src/gstreamer/gstlibcamerasrc.cpp",
+    "output": "src/gstreamer/libgstlibcamera.so.p/gstlibcamerasrc.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_controls_generated.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_controls_generated.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_controls_generated.cpp.o -c src/py/libcamera/py_controls_generated.cpp",
+    "file": "src/py/libcamera/py_controls_generated.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_controls_generated.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_properties_generated.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_properties_generated.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_properties_generated.cpp.o -c src/py/libcamera/py_properties_generated.cpp",
+    "file": "src/py/libcamera/py_properties_generated.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_properties_generated.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_formats_generated.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_formats_generated.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_formats_generated.cpp.o -c src/py/libcamera/py_formats_generated.cpp",
+    "file": "src/py/libcamera/py_formats_generated.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/meson-generated_.._py_formats_generated.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_camera_manager.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_camera_manager.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_camera_manager.cpp.o -c ../../libcamera/src/py/libcamera/py_camera_manager.cpp",
+    "file": "../../libcamera/src/py/libcamera/py_camera_manager.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_camera_manager.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_color_space.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_color_space.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_color_space.cpp.o -c ../../libcamera/src/py/libcamera/py_color_space.cpp",
+    "file": "../../libcamera/src/py/libcamera/py_color_space.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_color_space.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_enums.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_enums.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_enums.cpp.o -c ../../libcamera/src/py/libcamera/py_enums.cpp",
+    "file": "../../libcamera/src/py/libcamera/py_enums.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_enums.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_geometry.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_geometry.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_geometry.cpp.o -c ../../libcamera/src/py/libcamera/py_geometry.cpp",
+    "file": "../../libcamera/src/py/libcamera/py_geometry.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_geometry.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_helpers.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_helpers.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_helpers.cpp.o -c ../../libcamera/src/py/libcamera/py_helpers.cpp",
+    "file": "../../libcamera/src/py/libcamera/py_helpers.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_helpers.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_main.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_main.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_main.cpp.o -c ../../libcamera/src/py/libcamera/py_main.cpp",
+    "file": "../../libcamera/src/py/libcamera/py_main.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_main.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p -Isrc/py/libcamera -I../../libcamera/src/py/libcamera -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -I/usr/include/python3.12 -I/usr/include/aarch64-linux-gnu/python3.12 -fvisibility=hidden -fvisibility-inlines-hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -fvisibility=hidden -Wno-shadow -DPYBIND11_USE_SMART_HOLDER_AS_DEFAULT -MD -MQ src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_transform.cpp.o -MF src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_transform.cpp.o.d -o src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_transform.cpp.o -c ../../libcamera/src/py/libcamera/py_transform.cpp",
+    "file": "../../libcamera/src/py/libcamera/py_transform.cpp",
+    "output": "src/py/libcamera/_libcamera.cpython-312-aarch64-linux-gnu.so.p/py_transform.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/v4l2/v4l2-compat.so.p -Isrc/v4l2 -I../../libcamera/src/v4l2 -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -U_FILE_OFFSET_BITS -D_FILE_OFFSET_BITS=32 -D_LARGEFILE64_SOURCE -U_TIME_BITS -fvisibility=hidden -MD -MQ src/v4l2/v4l2-compat.so.p/v4l2_camera.cpp.o -MF src/v4l2/v4l2-compat.so.p/v4l2_camera.cpp.o.d -o src/v4l2/v4l2-compat.so.p/v4l2_camera.cpp.o -c ../../libcamera/src/v4l2/v4l2_camera.cpp",
+    "file": "../../libcamera/src/v4l2/v4l2_camera.cpp",
+    "output": "src/v4l2/v4l2-compat.so.p/v4l2_camera.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/v4l2/v4l2-compat.so.p -Isrc/v4l2 -I../../libcamera/src/v4l2 -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -U_FILE_OFFSET_BITS -D_FILE_OFFSET_BITS=32 -D_LARGEFILE64_SOURCE -U_TIME_BITS -fvisibility=hidden -MD -MQ src/v4l2/v4l2-compat.so.p/v4l2_camera_file.cpp.o -MF src/v4l2/v4l2-compat.so.p/v4l2_camera_file.cpp.o.d -o src/v4l2/v4l2-compat.so.p/v4l2_camera_file.cpp.o -c ../../libcamera/src/v4l2/v4l2_camera_file.cpp",
+    "file": "../../libcamera/src/v4l2/v4l2_camera_file.cpp",
+    "output": "src/v4l2/v4l2-compat.so.p/v4l2_camera_file.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/v4l2/v4l2-compat.so.p -Isrc/v4l2 -I../../libcamera/src/v4l2 -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -U_FILE_OFFSET_BITS -D_FILE_OFFSET_BITS=32 -D_LARGEFILE64_SOURCE -U_TIME_BITS -fvisibility=hidden -MD -MQ src/v4l2/v4l2-compat.so.p/v4l2_camera_proxy.cpp.o -MF src/v4l2/v4l2-compat.so.p/v4l2_camera_proxy.cpp.o.d -o src/v4l2/v4l2-compat.so.p/v4l2_camera_proxy.cpp.o -c ../../libcamera/src/v4l2/v4l2_camera_proxy.cpp",
+    "file": "../../libcamera/src/v4l2/v4l2_camera_proxy.cpp",
+    "output": "src/v4l2/v4l2-compat.so.p/v4l2_camera_proxy.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/v4l2/v4l2-compat.so.p -Isrc/v4l2 -I../../libcamera/src/v4l2 -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -U_FILE_OFFSET_BITS -D_FILE_OFFSET_BITS=32 -D_LARGEFILE64_SOURCE -U_TIME_BITS -fvisibility=hidden -MD -MQ src/v4l2/v4l2-compat.so.p/v4l2_compat.cpp.o -MF src/v4l2/v4l2-compat.so.p/v4l2_compat.cpp.o.d -o src/v4l2/v4l2-compat.so.p/v4l2_compat.cpp.o -c ../../libcamera/src/v4l2/v4l2_compat.cpp",
+    "file": "../../libcamera/src/v4l2/v4l2_compat.cpp",
+    "output": "src/v4l2/v4l2-compat.so.p/v4l2_compat.cpp.o"
+  },
+  {
+    "directory": "/home/luqseee/robot_ws/src/build/libcamera",
+    "command": "c++ -Isrc/v4l2/v4l2-compat.so.p -Isrc/v4l2 -I../../libcamera/src/v4l2 -Iinclude -I../../libcamera/include -Iinclude/libcamera/ipa -Iinclude/libcamera -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Werror -std=c++17 -O3 -Wnon-virtual-dtor -Wno-redundant-move -Wmissing-declarations -Wshadow -include /home/luqseee/robot_ws/src/build/libcamera/config.h -fPIC -DLIBCAMERA_BASE_PRIVATE -U_FILE_OFFSET_BITS -D_FILE_OFFSET_BITS=32 -D_LARGEFILE64_SOURCE -U_TIME_BITS -fvisibility=hidden -MD -MQ src/v4l2/v4l2-compat.so.p/v4l2_compat_manager.cpp.o -MF src/v4l2/v4l2-compat.so.p/v4l2_compat_manager.cpp.o.d -o src/v4l2/v4l2-compat.so.p/v4l2_compat_manager.cpp.o -c ../../libcamera/src/v4l2/v4l2_compat_manager.cpp",
+    "file": "../../libcamera/src/v4l2/v4l2_compat_manager.cpp",
+    "output": "src/v4l2/v4l2-compat.so.p/v4l2_compat_manager.cpp.o"
+  }
+]

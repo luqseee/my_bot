@@ -1,0 +1,52 @@
+[0.029s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_demo_description -DCMAKE_INSTALL_PREFIX=/home/luqseee/robot_ws/install/hoverboard_demo_description
+[0.196s] -- The C compiler identification is GNU 13.3.0
+[0.376s] -- The CXX compiler identification is GNU 13.3.0
+[0.410s] -- Detecting C compiler ABI info
+[0.650s] -- Detecting C compiler ABI info - done
+[0.666s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.667s] -- Detecting C compile features
+[0.667s] -- Detecting C compile features - done
+[0.685s] -- Detecting CXX compiler ABI info
+[0.953s] -- Detecting CXX compiler ABI info - done
+[0.971s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.972s] -- Detecting CXX compile features
+[0.973s] -- Detecting CXX compile features - done
+[0.980s] -- Found ament_cmake_auto: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.367s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.627s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.924s] -- Added test 'lint_cmake' to check CMake code style
+[1.927s] -- Added test 'xmllint' to check XML markup files
+[1.929s] -- Configuring done (1.9s)
+[1.936s] -- Generating done (0.0s)
+[1.937s] -- Build files have been written to: /home/luqseee/robot_ws/build/hoverboard_demo_description
+[1.952s] Invoked command in '/home/luqseee/robot_ws/build/hoverboard_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_demo_description -DCMAKE_INSTALL_PREFIX=/home/luqseee/robot_ws/install/hoverboard_demo_description
+[1.953s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_demo_description -- -j4 -l4
+[2.036s] Invoked command in '/home/luqseee/robot_ws/build/hoverboard_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/luqseee/robot_ws/build/hoverboard_demo_description -- -j4 -l4
+[2.054s] Invoking command in '/home/luqseee/robot_ws/build/hoverboard_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_demo_description
+[2.076s] -- Install configuration: ""
+[2.077s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/urdf
+[2.077s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/urdf/hoverboard_description.xacro
+[2.078s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/urdf/macros.xacro
+[2.078s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/urdf/wheels.xacro
+[2.079s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/urdf/materials.xacro
+[2.079s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/urdf/ros2_control.xacro
+[2.079s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/rviz
+[2.079s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/rviz/hoverboard.rviz
+[2.079s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/meshes
+[2.080s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/meshes/plate.stl
+[2.080s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/ament_index/resource_index/package_run_dependencies/hoverboard_demo_description
+[2.081s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/ament_index/resource_index/parent_prefix_path/hoverboard_demo_description
+[2.082s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/environment/ament_prefix_path.sh
+[2.082s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/environment/ament_prefix_path.dsv
+[2.082s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/environment/path.sh
+[2.082s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/environment/path.dsv
+[2.082s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/local_setup.bash
+[2.082s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/local_setup.sh
+[2.082s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/local_setup.zsh
+[2.082s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/local_setup.dsv
+[2.083s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.dsv
+[2.083s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/ament_index/resource_index/packages/hoverboard_demo_description
+[2.085s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/cmake/hoverboard_demo_descriptionConfig.cmake
+[2.085s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/cmake/hoverboard_demo_descriptionConfig-version.cmake
+[2.085s] -- Installing: /home/luqseee/robot_ws/install/hoverboard_demo_description/share/hoverboard_demo_description/package.xml
+[2.116s] Invoked command in '/home/luqseee/robot_ws/build/hoverboard_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/luqseee/robot_ws/build/hoverboard_demo_description

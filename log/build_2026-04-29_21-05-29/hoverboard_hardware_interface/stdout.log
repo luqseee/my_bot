@@ -1,0 +1,36 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/serial_port_service.dir/src/serial_port_service.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libserial_port_service.so[0m
+[ 50%] Built target serial_port_service
+[ 75%] [32mBuilding CXX object CMakeFiles/hoverboard_hardware_interface.dir/src/hoverboard_hardware_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libhoverboard_hardware_interface.so[0m
+[100%] Built target hoverboard_hardware_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface//hoverboard_hardware_interface.xml
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/hoverboard_hardware_interface.hpp
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/motor_wheel.hpp
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/serial_port_protocol.hpp
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/include/hoverboard_hardware_interface/serial_port_service.hpp
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/library_path.sh
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/library_path.dsv
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/libserial_port_service.so
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/lib/libhoverboard_hardware_interface.so
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/package_run_dependencies/hoverboard_hardware_interface
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/parent_prefix_path/hoverboard_hardware_interface
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/path.sh
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/environment/path.dsv
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.bash
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.sh
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.zsh
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/local_setup.dsv
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.dsv
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/packages/hoverboard_hardware_interface
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hoverboard_hardware_interface
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/hoverboard_hardware_interfaceConfig.cmake
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/cmake/hoverboard_hardware_interfaceConfig-version.cmake
+-- Symlinking: /home/luqseee/robot_ws/install/hoverboard_hardware_interface/share/hoverboard_hardware_interface/package.xml

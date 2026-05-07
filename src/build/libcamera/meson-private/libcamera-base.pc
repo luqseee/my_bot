@@ -1,0 +1,9 @@
+prefix=/home/luqseee/robot_ws/src/install/libcamera
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libcamera-base
+Description: Camera support base utility library
+Version: 0.7.0
+Libs: -L${libdir} -lcamera-base
+Cflags: -I${includedir}/libcamera

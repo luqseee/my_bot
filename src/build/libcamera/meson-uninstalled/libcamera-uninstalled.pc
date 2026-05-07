@@ -1,0 +1,11 @@
+prefix=/home/luqseee/robot_ws/src/build/libcamera
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/home/luqseee/robot_ws/src/libcamera
+
+Name: libcamera
+Description: Complex Camera Support Library
+Version: 0.7.0
+Requires: libcamera-base
+Libs: -L${prefix}/src/libcamera -lcamera
+Cflags: -I${prefix}/include -I${srcdir}/include -I${prefix}/src/libcamera -I${srcdir}/src/libcamera

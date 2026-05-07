@@ -1,0 +1,4 @@
+Invoking command in '/home/luqseee/robot_ws/src/build/libcamera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson setup --libdir=lib --prefix=/home/luqseee/robot_ws/src/install/libcamera --buildtype=release /home/luqseee/robot_ws/src/build/libcamera /home/luqseee/robot_ws/src/libcamera
+Invoked command in '/home/luqseee/robot_ws/src/build/libcamera' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson setup --libdir=lib --prefix=/home/luqseee/robot_ws/src/install/libcamera --buildtype=release /home/luqseee/robot_ws/src/build/libcamera /home/luqseee/robot_ws/src/libcamera
+Invoking command in '/home/luqseee/robot_ws/src/build/libcamera': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson compile
+Invoked command in '/home/luqseee/robot_ws/src/build/libcamera' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/meson compile
