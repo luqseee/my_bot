@@ -1,1 +1,0 @@
-/home/luqseee/robot_ws/src/hoverboard_ros2_control/hoverboard_hardware_interface/include/hoverboard_hardware_interface/serial_port_protocol.hpp

@@ -1,1 +1,0 @@
-/home/luqseee/robot_ws/build/hoverboard_hardware_interface/ament_cmake_environment_hooks/local_setup.bash

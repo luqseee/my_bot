@@ -1,1 +1,0 @@
-/home/luqseee/robot_ws/build/hoverboard_demo_description/ament_cmake_core/hoverboard_demo_descriptionConfig.cmake
